@@ -6,7 +6,7 @@ let second_Input=Number(prompt("Enter your second Number :- "));
 if(first_Input>second_Input)
 {
 
-console.log("First Number is greater than second number ",first_Input);
+console.log("first Number is greater than second number ",first_Input);
 }
 else if (second_Input>first_Input){
 console.log("Second Number is greater than first number ",second_Input)
