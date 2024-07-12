@@ -12,7 +12,7 @@ function push(data) {
     console.log(arr); 
 }
 
-console.log("topmost Element in the array is ", arr[top]);
+console.log("topmost Element in the array  is  this element ", arr[top]);
 console.log(arr[0]);
 console.log(arr[1]);
 console.log(arr[2]);
