@@ -13,4 +13,4 @@ let person1 = {
   // Print object properties
   console.log(`Name: ${person1.name}`);
   console.log(`Citizenship No.: ${person1.citNo}`);
-  console.log(`Salary: ${person1.salary.toFixed(2)}`);
+  console.log(`Salary: ${person1.salary}`);
