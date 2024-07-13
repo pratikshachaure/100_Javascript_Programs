@@ -5,7 +5,7 @@ let front=-1;
 let rear=-1;
  
 
-function enqueue(ele)
+function push(ele)
 {
       
      if(rear==size-1)
@@ -17,20 +17,21 @@ function enqueue(ele)
         if(front==-1)
         {
             front=0;
-        }
-        // let ele=Number(prompt("Enter element"))
+        } 
         rear++;
         arr[rear]=ele;
+        console.log("rear",arr[rear])
         
      }
+
      
 }
 
-function dequeue()
+function pop()
 {
     if(front==-1||front>rear)
     {
-        console.log("Underflow ");
+        console.log("Queue is empty  ");
     }
     else{
         console.log("Deleted:-",arr[front]);
@@ -50,17 +51,20 @@ function display()
 
         for(i=front;i<=rear;i++)
         {
-            console.log(arr[i]);
+            console.log(i,"=",arr[i]);
         }
     }
 }
 
  
- enqueue(1)
- enqueue(22)
- enqueue(3)
- enqueue(4)
+ push(1)
+ push(22);
+ push(3)
+ push(4)
+ push(4)
+ push(46)
  
  
-dequeue()
+ 
+// pop()
 display()
